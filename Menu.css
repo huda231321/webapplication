@@ -1,0 +1,66 @@
+﻿.drinkContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.latte {
+    width: 100%;
+    max-width: 25%;
+    margin-bottom: 20px
+}
+
+.drinkImage {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.logo {
+    margin: 6em 0 6em 0;
+    width: 500px;
+    position: relative;
+    top: -9px;
+    left: 441px;
+}
+
+
+
+#ContentPlaceHolder1_addLatte {
+    position: relative;
+    top: -43px;
+    left: 200px;
+}
+
+#ContentPlaceHolder1_addGreenTea {
+    position: relative;
+    top: -367px;
+    left: 770px;
+}
+
+#ContentPlaceHolder1_addFrappe {
+    position: relative;
+    top: -680px;
+    left: 1138px;
+}
+
+#ContentPlaceHolder1_vCart {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 43px;
+    left: -671px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.viewCart{
+    
+}
